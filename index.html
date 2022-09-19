@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.3/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="slider">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/img_1706b9300f46dc7a373cdc6ae8928895.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/img_4e01ad64d99f3fba516bc77d198ce17f.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/img_6cfc2c38c15593e36a5e41795ea1de32.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <header>
+      <div class="nav container">
+        <a href="index.html" class="logo">Ecommerce</a>
+        <box-icon name="cart" id="cart-icon"></box-icon>
+        <div class="cart">
+          <h2 class="cart-title">Carrito de Compras</h2>
+          <div class="cart-content"></div>
+        <div class="total"> 
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <!-- BUY BUTTON -->
+        <button type="button" class="btn-buy">Comprar</button>
+        <!-- CART CLOSE -->
+        <i class='bx bx-x' id="close-cart"></i>
+        </div>
+     </div>
+    </div>
+    </header>
+
+    <section class="shop container">
+      <h2 class="section-title">Productos en Tienda</h2>
+
+      <div class="shop-content">
+        <!-- ===PRODUCT 1==== -->
+        <div class="product-box">
+          <img src="img/product1.jpg" alt="" class="productImg" />
+          <h2 class="product-title">ADIDAS SHIRT</h2>
+          <span class="price">$25</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 2 ==== -->
+        <div class="product-box">
+          <img src="img/product2.jpg" alt="" class="productImg" />
+          <h2 class="product-title">WIRELESS EARBUDS</h2>
+          <span class="price">$90</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 3 ==== -->
+        <div class="product-box">
+          <img src="img/product3.jpg" alt="" class="productImg" />
+          <h2 class="product-title">HOODED PARKA</h2>
+          <span class="price">$124</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 4 ==== -->
+        <div class="product-box">
+          <img src="img/product4.jpg" alt="" class="productImg" />
+          <h2 class="product-title">STRAW METAL BOOTLE</h2>
+          <span class="price">$67</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 5==== -->
+        <div class="product-box">
+          <img src="img/product5.jpg" alt="" class="productImg" />
+          <h2 class="product-title">SILVER METAL</h2>
+          <span class="price">$22</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 6==== -->
+        <div class="product-box">
+          <img src="img/product6.jpg" alt="" class="productImg" />
+          <h2 class="product-title">BACK HAT</h2>
+          <span class="price">$15</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 7==== -->
+        <div class="product-box">
+          <img src="img/product7.jpg" alt="" class="productImg" />
+          <h2 class="product-title">BACKPACK</h2>
+          <span class="price">$55</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+        <!-- ===PRODUCT 8==== -->
+        <div class="product-box">
+          <img src="img/product8.jpg" alt="" class="productImg" />
+          <h2 class="product-title">ULTRABOOST 22</h2>
+          <span class="price">$34</span>
+          <i class="bx bx-cart add-cart"></i>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
